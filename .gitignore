@@ -1,0 +1,27 @@
+# Ignore PyCharm project files
+.idea/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python virtual environments
+.venv/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables and secret keys
+.env
+
+# Ignore Excel or data files if not needed in repo
+*.xlsx
+
+# Streamlit's temporary files
+.streamlit/
+
+# Ignore logs
+*.log
