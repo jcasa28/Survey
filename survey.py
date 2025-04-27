@@ -40,6 +40,8 @@ st.write("Please fill out the following survey.")
 st.divider()
 
 # --- Survey Questions ---
+st.text_input("Please enter your name")
+
 major = st.selectbox("What is your current major?", [
     "Computer Science", "Engineering", "Mathematics", "Physical Sciences", "Other"])
 
